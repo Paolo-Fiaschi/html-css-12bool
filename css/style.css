@@ -1,0 +1,45 @@
+/* regole generali */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 900px;
+}
+/* debug */
+[class*="col-"]{
+  background: pink;
+  border: 1px solid black;
+  height: 150px;
+  position: relative;
+}
+/* end debug */
+
+.layout-col2{
+  border: 1px solid white;
+  padding-top: 143%;
+  background: #ff6666;
+  margin: 4%;
+}
+.layout-col8{
+  border: 1px solid white;
+  padding: 17%;
+  background: #ff6666;
+  margin: 2%;
+}
+.layout-col6{
+  border: 1px solid white;
+  padding: 23%;
+  background: #ff6666;
+  margin: 2%;
+}
+
+/* 1 row */
+h2{
+  text-align: center;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
