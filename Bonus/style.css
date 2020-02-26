@@ -1,0 +1,34 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+[class*="col-"]{
+  background: #6585f3;
+  /* border: 1px solid black; */
+  height: 150px;
+  position: relative;
+}
+.col-2 img{
+  width: 127px;
+  height: auto;
+}
+.cespuglio img{
+  width: 100%;
+  height: auto;
+}
+.mattoni img{
+  width: 100%;
+  height: auto;
+}
+.quadrati img{
+  width: 100%;
+}
+.interrogativo img{
+  width: 56%;
+}
+.montagna img{
+  width: 100%;
+  height: 99%;
+}
