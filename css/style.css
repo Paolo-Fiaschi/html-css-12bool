@@ -16,23 +16,13 @@ body{
 }
 /* end debug */
 
-.layout-col2{
+.layout{
   border: 1px solid white;
-  padding-top: 143%;
   background: #ff6666;
-  margin: 4%;
+  height: 100%;
 }
-.layout-col8{
-  border: 1px solid white;
-  padding: 17%;
-  background: #ff6666;
-  margin: 2%;
-}
-.layout-col6{
-  border: 1px solid white;
-  padding: 23%;
-  background: #ff6666;
-  margin: 2%;
+.padding{
+  padding: 6px;
 }
 
 /* 1 row */
